@@ -1,0 +1,52 @@
+.todo_ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    .done {
+        input {
+            &[type="text"] {
+                text-decoration: line-through;
+            }
+        }
+    }
+
+    li {
+        display: flex;
+        justify-content: space-between;
+        min-width: 30rem;
+        border: 2px solid grey;
+        border-radius: 5px;
+        width: max-content;
+        padding: 2px;
+        margin: 2px;
+
+        &:first-child {
+            color: red;
+            width: max-content;
+        }
+
+        input {
+            &[type="text"] {
+                border: 0;
+                max-width: 25rem;
+                width: 29rem;
+            }
+        }
+
+        input {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .rm {
+            margin-left: 5px;
+            background-color: red;
+            border-radius: 50%;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

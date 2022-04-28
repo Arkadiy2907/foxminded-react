@@ -1,0 +1,105 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    h2 {
+        margin: 10px;
+    }
+
+    .wrap_list {
+        max-width: 75rem;
+        margin: 5px;
+
+        .post_list {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-width: 77rem;
+
+            li {
+                display: flex;
+                border: 2px solid rgb(70, 70, 70);
+                border-radius: 5px;
+                padding: 2px;
+                margin: 2px;
+                height: 5rem;
+
+                p {
+                    border: 2px solid grey;
+                    border-radius: 5px;
+                    padding: 5px;
+                    overflow: hidden;
+
+                    &:nth-child(1) {
+                        width: 7%;
+                    }
+                    &:nth-child(2) {
+                        width: 6%;
+                    }
+                    &:nth-child(3) {
+                        width: 20%;
+                    }
+                    &:nth-child(4) {
+                        width: 67%;
+                    }
+                }
+            }
+        }
+    }
+
+    form {
+        display: flex;
+        border: 2px solid gray;
+        border-radius: 5px;
+        max-width: 80rem;
+        min-height: 10rem;
+        padding: 2px;
+        margin: 5px;
+
+        .allForm {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .idForm,
+            .titleForm,
+            .bodyForm {
+                display: flex;
+                flex-direction: column;
+                height: 5rem;
+
+                .errors {
+                    color: red;
+                }
+            }
+
+            textarea {
+                height: 3rem;
+                width: 30rem;
+            }
+
+            input,
+            textarea {
+                border: 0;
+                overflow: hidden;
+                padding: 2px;
+                margin: 2px;
+                background-color: rgb(236, 236, 236);
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .btn {
+        display: flex;
+        padding: 2px;
+        margin: 2px;
+    }
+}

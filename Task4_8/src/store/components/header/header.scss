@@ -1,0 +1,30 @@
+.wrap__nav {
+	margin: 5px;
+	padding: 5px;
+
+	ul {
+		display: flex;
+		padding: 0;
+
+		li {
+			list-style-type: none;
+
+			a {
+				text-decoration: none;
+			}
+
+			.nav__link {
+				padding: 10px 15px;
+				border: 1px solid rgba(255, 255, 255, 0);
+				border-bottom: 2px solid gray;				
+			}
+
+			.active {
+				padding: 10px 15px;
+				border: 1px solid gray;
+				border-top: 2px solid rgb(248, 144, 96);
+				border-bottom: 2px solid rgba(255, 255, 255, 0);
+			}
+		}
+	}
+}
