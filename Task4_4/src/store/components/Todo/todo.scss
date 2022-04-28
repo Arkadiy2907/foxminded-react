@@ -1,0 +1,30 @@
+.todo_ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        display: flex;
+        justify-content: space-between;
+        min-width: 600px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        width: max-content;
+        padding: 2px;
+        margin: 2px;
+        & input:hover {
+            cursor: pointer;
+        }
+        .rm {
+            margin-left: 5px;
+            background-color: red;
+            border-radius: 50%;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.done {
+    text-decoration: line-through;
+}

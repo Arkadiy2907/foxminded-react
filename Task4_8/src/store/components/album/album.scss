@@ -1,0 +1,19 @@
+.wrap_albumList {
+	margin: 5px;
+	padding: 5px;
+	width: 33rem;
+
+	.albumList {
+		border-bottom: 1px solid gray;
+		border-top: 1px solid gray;
+
+		h3 {
+			padding: 2px;
+		}
+
+		.albumItem {
+			border-bottom: 1px solid gray;
+			border-top: 1px solid gray;
+		}
+	}
+}

@@ -1,0 +1,74 @@
+.wrap_todoList {
+	margin: 5px;
+	padding: 5px;
+	width: 33rem;
+
+	.todoList {
+		border-bottom: 1px solid gray;
+		border-top: 1px solid gray;
+		padding: 0;
+
+		h3 {
+			padding: 2px;
+		}
+
+		.todoItem {
+			border-bottom: 1px solid gray;
+			border-top: 1px solid gray;
+			list-style-type: none;
+
+			.box {
+				display: flex;
+				align-items: center;
+				padding: 15px;
+				cursor: pointer;
+
+				input {
+					position: absolute;
+					opacity: 0;
+					width: 25px;
+					height: 25px;
+					border-radius: 100%;
+
+					&:checked ~ .checkmark {
+						border: 2px solid rgb(48, 48, 48);
+					}
+
+					&:checked ~ .text {
+						color: rgb(190, 190, 190);
+						text-decoration: line-through;
+					}
+
+					&:checked ~ .checkmark:after {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						width: 5px;
+						height: 10px;
+						border: solid green;
+						border-width: 0 2px 2px 0;
+						transform: rotate(45deg);
+					}
+				}
+
+				.checkmark {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					height: 25px;
+					width: 25px;
+					border-radius: 100%;
+					border: 2px solid rgb(190, 190, 190);
+
+					&:after {
+						content: "";
+					}
+				}
+
+				.text {
+					padding-left: 10px;
+				}
+			}
+		}
+	}
+}

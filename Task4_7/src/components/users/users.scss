@@ -1,0 +1,86 @@
+.UsersList__ul {
+    padding: 2px 5px;
+    margin: 6px;
+    overflow-y: auto;
+
+    li {
+        padding: 2px 5px;
+        margin: 5px;
+        list-style-type: none;
+        border: 2px solid grey;
+        border-radius: 5px;
+        width: 13rem;
+        overflow: hidden;
+    }
+
+    a {
+        color: rgb(51, 51, 51);
+        text-decoration: none;
+        padding: 4px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.wrap__UserId {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    margin-left: 8px;
+    padding: 2px;
+
+    .UserId {
+        margin: 5px;
+        border: 2px solid gray;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        color: rgb(51, 51, 51);
+
+        .UserId__person {
+            margin: 5px;
+            padding: 2px;
+            overflow: auto;
+        }
+
+        .UserId__block {
+            display: flex;
+            align-items: flex-start;
+            margin: 10px 0;
+
+            .UserId__block_icon {
+                font-size: 1rem;
+                background: white;
+                color: rgb(50, 156, 255);
+                margin: 5px 30px;
+            }
+
+            .branch {
+                transform: rotate(90deg);
+            }
+
+            p {
+                font-size: 0.8rem;
+                color: rgba(51, 51, 51, 0.5);
+            }
+        }
+    }
+
+    .wrap__btn__back {
+        display: flex;
+        justify-content: flex-end;
+
+        .button_back {
+            padding: 2px 5px;
+            border: 2px solid grey;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 6px;
+            color: #000;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

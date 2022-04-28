@@ -1,0 +1,9 @@
+.wrap_allList {
+	display: flex;
+	flex-wrap: wrap;
+
+	.wrap_AlbumTodo {
+		display: flex;
+		flex-direction: column;
+	}
+}

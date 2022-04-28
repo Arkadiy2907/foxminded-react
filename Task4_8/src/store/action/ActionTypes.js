@@ -1,0 +1,5 @@
+export const ADD_ALBUM = "ADD_ALBUM"
+export const ADD_POST = "ADD_POST"
+export const ADD_TODO = "ADD_TODO"
+export const TOGGLE_TODO = "TOGGLE_TODO"
+export const RESET = "RESET"

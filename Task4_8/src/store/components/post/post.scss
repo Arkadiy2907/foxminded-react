@@ -1,0 +1,23 @@
+.wrap_postList {
+	margin: 5px;
+	padding: 5px;
+	width: 33rem;
+
+	.postList {
+		border-bottom: 1px solid gray;
+		border-top: 1px solid gray;
+
+		h3 {
+			padding: 2px;
+		}
+
+		.postItem {
+			border-bottom: 1px solid gray;
+			border-top: 1px solid gray;
+
+			h3 {
+				padding: 2px;
+			}
+		}
+	}
+}

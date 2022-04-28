@@ -1,0 +1,17 @@
+.wrap__nav {
+    margin: 7px;
+    padding: 2px;
+
+    .button_nav {
+        padding: 2px 5px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        text-decoration: none;
+        margin: 6px;
+        color: black;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

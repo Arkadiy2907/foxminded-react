@@ -1,0 +1,17 @@
+.users__ul {
+    list-style: none;
+    li {
+        border: 2px solid grey;
+        border-radius: 5px;
+        width: max-content;
+        padding: 2px;
+        margin: 2px;
+    }
+    li:hover {
+        cursor: pointer;
+    }
+}
+
+.UserId h2 {
+    margin-bottom: 5px;
+}

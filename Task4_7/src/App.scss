@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+
+        .wrap__list {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            width: 27rem;
+            height: 24rem;
+            padding: 10px;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.button_back {
+    padding: 2px 5px;
+    border: 2px solid grey;
+    text-decoration: none; 
+    margin-left: 20px;   
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.UserId h2 {
+    margin-bottom: 5px;
+}

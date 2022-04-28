@@ -1,0 +1,31 @@
+.post__wrap {
+    margin: 5px;
+}
+
+.postItem {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    &:hover {
+        cursor: pointer;
+    }
+    h3 {
+        padding: 2px;
+        border-bottom: 2px solid brown;
+    }
+
+    p {
+        margin-left: 10px;
+        border-bottom: 2px solid gray;
+        padding: 4px;
+    }
+    .rm {
+        margin-left: 5px;
+        background-color: red;
+        border-radius: 50%;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
